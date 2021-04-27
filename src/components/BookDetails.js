@@ -4,7 +4,7 @@ import { BookContext } from "../contexts/BookContext";
 function BookDetails({ book }) {
   const { deleteBook } = useContext(BookContext);
   return (
-    <li>
+    <li onClick={() => deleteBook(book.id)}>
       <div className="title">{book.title}</div>
       <div className="author">{book.author}</div>
     </li>
