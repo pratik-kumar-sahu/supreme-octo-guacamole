@@ -14,7 +14,7 @@ function BookList() {
       </ul>
     </div>
   ) : (
-    <div className="empty">No books to read. Add new books for future.</div>
+    <div className="empty">No books to read. Add new books for future 🚀</div>
   );
 }
 
